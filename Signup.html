@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Sign Up for EasyHealth</title>
+    </head>
+    <body>
+        <form method="post" action="signup.php">
+            <h1>SIGN UP FOR EASY HEALTH.!</h1>
+            <fieldset>
+                Email*: <input type="text" name="email" default="email" placeholder="email"><br>
+                Name: <input type="text" name="name" default="Tea" placeholder="Name"><br>
+                Gender*: <select name="Gender">
+                    <option value="male">MALE</option>
+                    <option value="Female">FEMALE</option>
+                    <option value="Others">Prefer not to Disclose</option>
+                </select><br>
+                Type of Account*:<select name="Account">
+                    <option value="USER">USER</option>
+                    <option value="Doctor">DOCTOR</option>
+                </select>
+                Password*: <input type="password" name="password" default="password" placeholder="password">
+                *Mandatory fields
+            </fieldset>
+            <input type="submit">
+        </form>
+    
+    </body>
+
+</html>
